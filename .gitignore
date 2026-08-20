@@ -1,0 +1,36 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Course/private material intentionally not published
+course-material/
+starter-code/
+submissions/
+gradescope/
+rubric*
+grade*
+score*
+points*
+submitted*
+*_submission*
+test_cases/
+autograder.py
+*_report.txt
+*.pdf
+*.ipynb
+
+# Generated outputs
+dist/
+build/
+*.egg-info/
